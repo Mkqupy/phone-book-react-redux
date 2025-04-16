@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', padding: '20px' }}>
-      <h1>Книга контактів</h1>
+      <h1 style={{color: "brown"}}>Книга контактів</h1>
       <ContactForm />
       <ContactList />
     </div>

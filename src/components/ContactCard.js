@@ -6,7 +6,7 @@ function ContactCard({ contact, onDelete }) {
   };
 
   return (
-    <div style={{ border: '1px solid #ccc', padding: '10px', margin: '5px' }}>
+    <div style={{ border: '1px solid #ccc', borderRadius: '20px', padding: '10px', margin: '5px' }}>
       <div>
         <h3>{contact.name}</h3>
         <p>Телефон: {contact.phone}</p>
@@ -14,7 +14,7 @@ function ContactCard({ contact, onDelete }) {
       </div>
       <button
         onClick={handleDelete}
-        style={{ padding: '5px 10px', cursor: 'pointer' }}
+        style={{ padding: '5px 10px', cursor: 'pointer', borderRadius: "20px", background: 'pink' }}
       >
         Видалити
       </button>
